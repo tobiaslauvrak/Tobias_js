@@ -1,0 +1,165 @@
+/* Minimal reset: */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+/* End minimal CSS Reset */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("bilder/bakgrunn.png");
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container_intro{
+    background-color: blue;
+    padding: 60px;
+    border-radius: 15px;
+}
+
+.buttons_intro {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+} 
+
+.button_intro {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.easy {
+    background: green;
+    color: white;
+}
+
+.easy:hover {
+    background: green;
+}
+
+.medium {
+    background: yellow;
+    color: black;
+}
+
+.medium:hover {
+    background: yellow;
+}
+
+.hard {
+    background: red;
+    color: white;
+}
+
+.hard:hover {
+    background: red;
+}
+
+
+/*quizEasy*/
+
+/* Generelle stiler */
+
+
+/* Quiz-container */
+.quiz-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+/* Quiz-tittel */
+.quiz-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Flagg-boks */
+.flag-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-box img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+/* Alternativ-knapper */
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.option-btn {
+    background: white;
+    color: black;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.option-btn:hover {
+    background: lightgray;
+}
+
+/* Korrekt svar (kan aktiveres med JavaScript) */
+.correct {
+    background: #4CAF50;
+    color: white;
+}
+
+/* Neste-knapp */
+.next-btn {
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.next-btn:hover {
+    background: #e68900;
+}
+
+
+.score-box {
+    margin-top: 15px;
+    font-size: 18px;
+}
