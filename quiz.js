@@ -1,4 +1,9 @@
 const klokkeEl = document.getElementById("klokke")
+const spørsmål = [
+    {
+        spørsmålet: 
+    }
+]
 
 
 
