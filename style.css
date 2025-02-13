@@ -78,10 +78,10 @@ body {
 
 /*quizEasy*/
 
-/* Generelle stiler */
 
 
-/* Quiz-container */
+
+
 .quiz-container {
     background: rgba(255, 255, 255, 0.1);
     padding: 30px;
@@ -91,13 +91,13 @@ body {
     width: 350px;
 }
 
-/* Quiz-tittel */
+
 .quiz-title {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-/* Flagg-boks */
+
 .flag-box {
     background: rgba(255, 255, 255, 0.2);
     padding: 15px;
@@ -113,7 +113,7 @@ body {
     border-radius: 8px;
 }
 
-/* Alternativ-knapper */
+
 .options-container {
     display: flex;
     flex-direction: column;
@@ -136,15 +136,15 @@ body {
     background: lightgray;
 }
 
-/* Korrekt svar (kan aktiveres med JavaScript) */
-.correct {
-    background: #4CAF50;
+
+.korrekt {
+    background: green;
     color: white;
 }
 
-/* Neste-knapp */
+
 #next-btn {
-    background: #ff9800;
+    background: orange;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -155,11 +155,26 @@ body {
 }
 
 .next-btn:hover {
-    background: #e68900;
+    background: orange;
 }
 
 
 .score-box {
     margin-top: 15px;
     font-size: 18px;
+}
+
+#klokke {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
 }
