@@ -1,23 +1,11 @@
-const klokkeEl = document.getElementById("klokke")
+
 const spørsmål = [
     {
         spørsmålet: 
     }
 ]
 
+const flaggElement = document.getElementById("flagg-image");
+const svarButton = document.getElementById("alternativer-container");
+const nesteButton = document.getElementById("neste-btn");
 
-
-let sekunder = 10
-
-
-
-
-function klokkeTikkNed() {
-    sekunder = sekunder - 1
-    klokkeEl.innerHTML = sekunder + "sek"
-
-    if (sekunder <=0){
-        clearInterval(klokkeRef)
-        spillFerdig = true
-    }
-}
