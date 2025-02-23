@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaggquiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+        <p id="klokke">10 sek</p>
+    </div>
+
+    <div class="container_intro">
+        <h1 class="quiz-title">Gjenkjenn flagget!</h1>
+        
+        <div class="flagg-box">
+            <img id="flagg-image" src="bilder/forside.png">
+        </div>
+
+        <div id="alternativer-knapper">
+            <button class="alternativ-btn">Det er 10 spørsmål</button>
+            <button class="alternativ-btn">Trykk på hvilket alternativ du tror er riktig</button>
+            <button class="alternativ-btn">Prøv å få så mage riktige som mulig</button>
+            <button class="alternativ-btn">Lykke til!</button>
+        </div>
+
+        <div style="display: flex; justify-content: center; gap: 10px; margin-top: 20px;">
+            <button id="neste-btn">Neste flagg →</button>
+            <a href="quizLandingSlide.html"><button id="meny-btn">Til menyen</button></a>
+        </div>
+
+        <div class="score-box">
+            <p>Poeng: <span id="score">0</span></p>
+        </div>
+    </div>
+
+
+    <script src="medium.js"></script>
+
+</body>
+</html>

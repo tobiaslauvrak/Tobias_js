@@ -98,7 +98,7 @@ body {
 }
 
 
-.flag-box {
+.flagg-box {
     background: rgba(255, 255, 255, 0.2);
     padding: 15px;
     border-radius: 8px;
@@ -107,10 +107,11 @@ body {
     align-items: center;
 }
 
-.flag-box img {
+#flagg-image {
     width: 100%;
     max-width: 250px;
     border-radius: 8px;
+    max-height: 170px;
 }
 
 
@@ -149,6 +150,17 @@ body {
     margin-top: 20px;
 }
 
+#meny-btn {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
 .next-btn:hover {
     background: orange;
 }
@@ -169,7 +181,6 @@ body {
     text-align: center;
     padding: 10px;
     font-size: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 35%;
     border-radius: 10px;
 }

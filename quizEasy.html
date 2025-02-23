@@ -16,17 +16,20 @@
         <h1 class="quiz-title">Gjenkjenn flagget!</h1>
         
         <div class="flagg-box">
-            <img id="flagg-image" src="">
+            <img id="flagg-image" src="bilder/forside.png">
         </div>
 
         <div id="alternativer-knapper">
-            <button class="alternativ-btn">svar 1</button>
-            <button class="alternativ-btn">svar 2</button>
-            <button class="alternativ-btn">svar 3</button>
-            <button class="alternativ-btn">svar 4</button>
+            <button class="alternativ-btn">Det er 10 spørsmål</button>
+            <button class="alternativ-btn">Trykk på hvilket alternativ du tror er riktig</button>
+            <button class="alternativ-btn">Prøv å få så mage riktige som mulig</button>
+            <button class="alternativ-btn">Lykke til!</button>
         </div>
 
-        <button id="neste-btn">Neste flagg →</button>
+        <div style="display: flex; justify-content: center; gap: 10px; margin-top: 20px;">
+            <button id="neste-btn">Neste flagg →</button>
+            <a href="quizLandingSlide.html"><button id="meny-btn"> til menyen</button></a>
+        </div>
 
         <div class="score-box">
             <p>Poeng: <span id="score">0</span></p>
@@ -34,6 +37,7 @@
     </div>
 
 
-    <script> src="quiz.js"  </script>
+    <script src="quiz.js"></script>
+
 </body>
 </html>
