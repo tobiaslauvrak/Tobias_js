@@ -118,7 +118,7 @@ function sjekkSvar(valgtIndex) {
     if (valgtIndex === riktigIndex) {
         score++;
         scoreTekst.textContent = score;
-        knapper[valgtIndex].style.background = "ligthgreen";
+        knapper[valgtIndex].style.background = "lightgreen";
     } else {
         knapper[valgtIndex].style.background = "red";
         knapper[riktigIndex].style.background = "lightgreen";
